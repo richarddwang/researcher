@@ -1,0 +1,21 @@
+{
+	"servers": {
+		"aira-semanticscholar": {
+			"type": "stdio",
+			"command": "npx",
+			"args": [
+				"-y",
+				"aira-semanticscholar"
+			]
+		},
+		"tavily": {
+			"type": "stdio",
+			"command": "npx",
+			"args": [
+				"mcp-remote",
+				"https://mcp.tavily.com/mcp"
+			]
+		}
+	},
+	"inputs": []
+}
